@@ -35,9 +35,6 @@ The next step was to apply MSER to the images that have been converted to the gr
 generated with minimum area set to 1000, and maximum area set to 4000 using . Of the extracted regions,
 a bounding box was drawn to highlight the region that was extracted.
 
-![Capture](https://user-images.githubusercontent.com/48079888/61189620-099e0b80-a65e-11e9-9b6f-6a3c7f7c6212.JPG)
-
-Output from MSER
 
 #### 2.4 HOG Feature
 Of the region that was highlighted, the HOGDescriptor from the OpenCV library was used to get the HOG
